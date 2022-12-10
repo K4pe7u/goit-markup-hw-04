@@ -298,9 +298,7 @@ ul {
   cursor: pointer;
   color: var(--color2);
 }
-.footer-links {
-  gap: 10px;
-}
+
 .footer-links h2 {
   font-weight: 700;
   font-size: 14px;
@@ -316,12 +314,14 @@ ul {
   align-items: center;
   width: 44px;
   height: 44px;
+
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 .socialmedia-footer {
   fill: var(--color5);
   display: flex;
+  gap: 10px;
 }
 .socialmedia-footer div:hover,
 div:focus {
