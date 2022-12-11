@@ -314,7 +314,6 @@ ul {
   align-items: center;
   width: 44px;
   height: 44px;
-
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
@@ -323,12 +322,19 @@ ul {
   display: flex;
   gap: 10px;
 }
+.socialmedia-footer a {
+  fill: var(--color9);
+}
+.socialmedia-footer a:hover,
+.socialmedia-footer a:focus {
+  fill: var(--color5);
+}
+
 .socialmedia-footer div:hover,
-div:focus {
+.socialmedia-footer div:focus {
   background-color: var(--color2);
   fill: var(--color5);
   cursor: pointer;
-  background-color: var(--color2);
 }
 
 .portfolio-main > .container {
@@ -470,13 +476,16 @@ div:focus {
   justify-content: center;
   border-radius: 50%;
 }
-.socialmedia {
+.socialmedia a {
   fill: var(--color9);
 }
+.socialmedia a:hover,
+.socialmedia a:focus {
+  fill: var(--color5);
+}
 .socialmedia > div:hover,
-div:focus {
+.socialmedia > div:focus {
   background-color: var(--color2);
   fill: var(--color5);
   cursor: pointer;
-  background-color: var(--color2);
 }
